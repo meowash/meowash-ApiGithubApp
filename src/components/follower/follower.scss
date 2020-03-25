@@ -1,0 +1,51 @@
+.follower{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.img__follower{
+    width: 20%;
+}
+.btn__followers{
+    color: rgb(82, 82, 82);
+    background-color: white;
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: 3px;
+    padding: 4px 10px;
+    cursor: pointer;
+    transition: .3s linear;
+    &:hover{
+        color: white;
+        background-color: rgb(133, 133, 133);
+    }
+    &:focus{
+        color: white;
+        background-color: rgb(133, 133, 133);
+    }
+}
+.follower__list{
+    margin-bottom: 3px;
+}
+
+.closeFollowers {
+    display: none;
+}
+.closeInformationFollower{
+    display: none;
+}
+.btn__sort-name{
+    border: none;
+    color: rgb(82, 82, 82);
+    background-color: white;
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s linear;
+    &:hover{
+        color: rgb(82, 82, 82);;
+        background-color: rgba(252, 222, 249, 0.445);
+    }
+}
+.follower__information{
+    display: flex;
+}
